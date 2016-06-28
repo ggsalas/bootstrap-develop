@@ -1,0 +1,4 @@
+# Para lanzar el servidor live-server
+
+# Para compilar el scss al vuelo:
+$ ./node_modules/.bin/node-sass ./src/basic/sass -o ./src/basic/css -w
