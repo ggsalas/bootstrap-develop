@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saas": "./node_modules/.bin/node-sass ./src/basic/scss -o ./src/basic/css -w",
+    "live": "live-server",
+    "start": "npm run live & npm run saas"
   },
   "keywords": [],
   "author": "",
