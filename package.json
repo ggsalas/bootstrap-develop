@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "saas": "./node_modules/.bin/node-sass ./src/basic/scss -o ./src/basic/css -w",
     "live": "live-server",
-    "start": "npm run live & npm run saas"
+    "start": "npm run saas & npm run live"
   },
   "keywords": [],
   "author": "",
